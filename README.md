@@ -114,13 +114,26 @@ Probar los siguientes endpoints:
 - `DELETE http://localhost:8081/api/cliente/{id}`
 
 ---
+## 🔧 Comandos Docker para gestión manual
 
-## Comandos útiles
+### Levantar contenedores
 
 ```bash
-# Ver contenedores activos
-docker ps
-
-# Detener y eliminar contenedores
-docker-compose -f archivo.yml down
+docker start database-sqlserver
+docker start proyectoWebApi
 ```
+
+### Detener contenedores
+
+```bash
+docker stop database-sqlserver
+docker stop proyectoWebApi
+```
+
+### Eliminar contenedores
+
+```bash
+docker rm database-sqlserver
+docker rm proyectoWebApi
+```
+
