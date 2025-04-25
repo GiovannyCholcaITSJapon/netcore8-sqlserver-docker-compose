@@ -99,7 +99,7 @@ docker-compose -f docker-compose-apisweb.yml up -d
 
 Abrir Docker Desktop y verificar que los contenedores estén en ejecución:
 - `database-sqlserver`
-- `proyectoEcommerce-BCH`
+- `proyectoWebApi`
 
 ---
 
